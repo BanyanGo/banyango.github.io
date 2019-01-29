@@ -27,7 +27,7 @@
 }
 
 .rcorners2 {
-    border-radius: 25px; 
+    border-radius: 12px; 
     background-color: lightgrey;
     background-position: center;
     background-repeat: repeat;  
@@ -40,7 +40,7 @@
 .game {
   
   position: relative;
-  border-radius: 1.8em;  
+  border-radius: .5em;  
   mask-type: alpha;
   -webkit-mask-clip: content-box;
   max-height: 34vw;
@@ -48,8 +48,8 @@
 }
 
 .game img {  
-  max-width: 80%;
-  max-height: 23vw;
+  max-width: 90%;
+  max-height: 37vw;
   display: block;
   margin-left: auto;
   margin-right: auto;  
@@ -81,7 +81,7 @@
 }
 
 .game a:hover:before { 
-  background: rgba(87, 87, 87, 0.9);
+  background: rgba(255, 214, 214, 0.3);
 }
 
 .giveup-color {
@@ -100,13 +100,13 @@
   text-indent: 1em;
   padding-bottom: .1em;
   width: 100%;  
-  font-size: 2.2vw;   
+  font-size: 2vw;   
 }
 
 .jam-game {
   background-color: #150A0A;
   position: relative;
-  border-radius: 1.4em;      
+  border-radius: .3em;      
   max-height: 54vw;
   overflow: hidden;
 }
@@ -141,7 +141,7 @@
 }
 
 .jam-game h2 {
-  background: #E44542;
+  background: rgb(134, 111, 111);
   color:white;  
   position: absolute;
   bottom: -.9em;    
