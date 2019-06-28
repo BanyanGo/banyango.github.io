@@ -3,6 +3,23 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+
+@media only screen and (min-width: 375px) {
+  .main {
+    display: grid;
+    grid-template-columns: auto 65%;
+    grid-template-rows: 220px auto;
+    background-image:url(../img/contracting/header.svg);
+    background-repeat: no-repeat;   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    min-height: 130px;     
+  }
+}
+
 @media only screen and (min-width: 500px) {
   .main {
     display: grid;
