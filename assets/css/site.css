@@ -45,6 +45,14 @@
   }
 }
 
+@media only screen and (min-width: 400px) {
+  .container {
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-bottom: 5%
+  }
+}
+
 .games-main {
   background-image: url(../img/header_animated.svg);
   background-repeat: no-repeat;
@@ -118,7 +126,7 @@
 }
 
 .links {
-  font-size: 30px;
+  font-size: 1em;
   background-color: #E9438A;
   color:white;
   padding-bottom:10%;
