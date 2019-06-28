@@ -1,0 +1,17 @@
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.icon:hover {
+  -webkit-transform: rotateY(15deg); /* Safari prior 9.0 */
+  transform: rotateY(15deg) skewY(2deg) scale(0.9); /* Standard syntax */
+  transition-duration: 2s;
+}
+
+.icon {
+  -webkit-transform: rotateY(0deg); /* Safari prior 9.0 */
+  transform: rotateY(0deg) skewY(0deg) scale(1); /* Standard syntax */
+  transition-duration: 2s;
+}

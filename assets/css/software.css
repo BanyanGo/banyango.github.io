@@ -1,0 +1,87 @@
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (min-width: 500px) {
+  .main {
+    display: grid;
+    grid-template-columns: auto 65%;
+    grid-template-rows: 200px auto;
+    background-image:url(../img/contracting/header.svg);
+    background-repeat: no-repeat;   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    min-height: 330px;     
+  }
+}
+
+@media only screen and (min-width: 568px) {
+  .main {
+    grid-template-rows: 220px auto;
+    background-image:url(../img/contracting/header.svg);
+    min-height: 420px;     
+  }
+}
+
+@media only screen and (min-width: 688px) {
+  .main {
+    grid-template-rows: 290px auto;
+    background-image:url(../img/contracting/header.svg);
+    min-height: 520px;
+  }
+}
+
+@media only screen and (min-width: 870px) {
+  .main {
+    grid-template-rows: 360px auto;
+    background-image:url(../img/contracting/header.svg);
+    min-height: 630px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .main {
+    grid-template-rows: 310px auto;
+    background-image:url(../img/contracting/header_large.png);
+    min-height: 520px;
+    background-size:contain;
+    background-position: top center;
+    padding-right:15%;
+    padding-left:15%;
+  }
+}
+
+.intouch {
+  grid-area: 2/2;
+}
+
+.divider {
+  background-image: url(../img/contracting/section_slice.svg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 220px;
+}
+
+.footer {
+  background-color: #de3891;
+  padding-bottom:6%;
+}
+
+.btn {
+  background: rgb(255,109,180);
+  background: -moz-linear-gradient(90deg, rgba(255,109,180,1) 0%, rgba(241,184,172,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(255,109,180,1) 0%, rgba(241,184,172,1) 100%);
+  background: linear-gradient(90deg, rgba(255,109,180,1) 0%, rgba(241,184,172,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff6db4",endColorstr="#f1b8ac",GradientType=1);
+  padding: 10px;
+  border: 2;
+  border-color: #de3891;
+  margin-top: 20px;
+}
