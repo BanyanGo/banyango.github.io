@@ -1,10 +1,20 @@
 
-* {
-  font-family: 'Montserrat', sans-serif;
+@font-face {
+  font-family: 'Cunia Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Cunia Bold'), url('../fonts/Cunia.woff') format('woff');
 }
 
+* {
+  color:#FFBCC7;
+}
 
-@media only screen and (min-width: 375px) {
+.cunia {
+  font-family: 'Cunia Bold';
+}
+
+@media only screen and (min-width: 255px) {
   .main {
     display: grid;
     grid-template-columns: auto 65%;
@@ -64,7 +74,7 @@
   .main {
     grid-template-rows: 310px auto;
     background-image:url(../img/contracting/header_large.png);
-    min-height: 520px;
+    min-height: 500px;
     background-size:contain;
     background-position: top center;
     padding-right:15%;
@@ -101,4 +111,20 @@
   border: 2;
   border-color: #de3891;
   margin-top: 20px;
+}
+
+.fadein-1 {
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s; /* Firefox < 16 */
+   -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+       animation: fadein 1s;
+}
+
+.fadein-2 {
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+   -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+       animation: fadein 2s;
 }

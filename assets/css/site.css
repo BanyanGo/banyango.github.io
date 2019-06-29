@@ -1,6 +1,6 @@
 
 * {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 @font-face {
@@ -65,6 +65,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center center;
     padding-top:7%;  
     padding-bottom:12%;  
   }
