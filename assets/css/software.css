@@ -28,6 +28,9 @@
     background-position: center center;
     min-height: 130px;     
   }
+  * {
+    font-size: 10pt;
+  }
 }
 
 @media only screen and (min-width: 500px) {
@@ -52,6 +55,9 @@
     background-image:url(../img/contracting/header.svg);
     min-height: 420px;     
   }
+  * {
+    font-size: 11pt;
+  }
 }
 
 @media only screen and (min-width: 688px) {
@@ -68,6 +74,9 @@
     background-image:url(../img/contracting/header.svg);
     min-height: 630px;
   }
+  * {
+    font-size: 14pt;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -79,6 +88,9 @@
     background-position: top center;
     padding-right:15%;
     padding-left:15%;
+  }
+  * {
+    font-size: 16pt;
   }
 }
 
