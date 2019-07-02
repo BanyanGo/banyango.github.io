@@ -15,3 +15,11 @@
   transform: rotateY(0deg) skewY(0deg) scale(1); /* Standard syntax */
   transition-duration: 2s;
 }
+
+embed{
+     pointer-events: none;
+}
+
+a{
+    display:block;
+}

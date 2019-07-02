@@ -19,7 +19,7 @@
     display: grid;
     grid-template-columns: auto 65%;
     grid-template-rows: 220px auto;
-    background-image:url(../img/contracting/header.svg);
+    background-image:url(../img/contracting/header.jpg);
     background-repeat: no-repeat;   
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -38,7 +38,7 @@
     display: grid;
     grid-template-columns: auto 65%;
     grid-template-rows: 200px auto;
-    background-image:url(../img/contracting/header.svg);
+    background-image:url(../img/contracting/header.jpg);
     background-repeat: no-repeat;   
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -52,7 +52,7 @@
 @media only screen and (min-width: 568px) {
   .main {
     grid-template-rows: 220px auto;
-    background-image:url(../img/contracting/header.svg);
+    background-image:url(../img/contracting/header.jpg);
     min-height: 420px;     
   }
   * {
@@ -63,7 +63,7 @@
 @media only screen and (min-width: 688px) {
   .main {
     grid-template-rows: 290px auto;
-    background-image:url(../img/contracting/header.svg);
+    background-image:url(../img/contracting/header.jpg);
     min-height: 520px;
   }
 }
@@ -71,7 +71,7 @@
 @media only screen and (min-width: 870px) {
   .main {
     grid-template-rows: 360px auto;
-    background-image:url(../img/contracting/header.svg);
+    background-image:url(../img/contracting/header.jpg);
     min-height: 630px;
   }
   * {
