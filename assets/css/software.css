@@ -171,3 +171,12 @@
   transition-duration: 2s;
 }
 
+.img-thumbnail {
+  border: 0 none;
+  box-shadow: none;  
+}
+
+.site-empty {
+  background-color: #F9E0F1;
+  color:white;
+}
