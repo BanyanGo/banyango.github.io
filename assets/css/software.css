@@ -119,26 +119,19 @@
   background: -webkit-linear-gradient(90deg, rgba(255,109,180,1) 0%, rgba(241,184,172,1) 100%);
   background: linear-gradient(90deg, rgba(255,109,180,1) 0%, rgba(241,184,172,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff6db4",endColorstr="#f1b8ac",GradientType=1);
-  padding: 10px;
-  border: 2;
-  border-color: #de3891;
+  padding: 15px;
+  font-size: 12pt;
+  border: 0;
   margin-top: 20px;
 }
 
-.fadein-1 {
-  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 1s; /* Firefox < 16 */
-   -ms-animation: fadein 1s; /* Internet Explorer */
-    -o-animation: fadein 1s; /* Opera < 12.1 */
-       animation: fadein 1s;
-}
-
-.fadein-2 {
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-   -ms-animation: fadein 2s; /* Internet Explorer */
-    -o-animation: fadein 2s; /* Opera < 12.1 */
-       animation: fadein 2s;
+.btn:hover {
+  background: rgb(255,109,180);
+  background: -moz-linear-gradient(90deg, rgb(250, 130, 196,1) 0%, rgb(245, 201, 192,1)00%);
+  background: -webkit-linear-gradient(90deg, rgba(250, 130, 196,1) 0%, rgba(245, 201, 192,1) 100%);
+  background: linear-gradient(90deg, rgba(250, 130, 196,1) 0%, rgba(245, 201, 192,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff6db4",endColorstr="#f1b8ac",GradientType=1);
+  
 }
 
 .hvr-glow {
@@ -177,6 +170,32 @@
 }
 
 .site-empty {
-  background-color: #F9E0F1;
-  
+  background-color: #F9E0F1;  
+}
+
+.fade-in {
+  -webkit-animation:fade-in 2s ease-in 0s 1 normal both;
+  animation:fade-in 2s ease-in 0s 1 normal both; 
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+   opacity:0
+  }
+  100% {
+   opacity:1
+  }
+ }
+ @keyframes fade-in {
+  0% {
+   opacity:0
+  }
+  100% {
+   opacity:1
+  }
+ }
+
+ .animated.delay-1s {
+  -webkit-animation-delay: .4s;
+  animation-delay: .4s
 }
