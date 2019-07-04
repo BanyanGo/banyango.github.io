@@ -140,3 +140,34 @@
     -o-animation: fadein 2s; /* Opera < 12.1 */
        animation: fadein 2s;
 }
+
+.hvr-glow {
+  vertical-align:middle;
+  -webkit-transform:perspective(5px) translateZ(0);
+  transform:perspective(5px) translateZ(0);
+  text-shadow: 0px 0px rgb(255, 188, 199, .5);
+  -webkit-transition-duration:2s;
+  transition-duration:2s;
+  -webkit-transition-property:text-shadow;
+  transition-property:text-shadow;
+ }
+ .hvr-glow:active,
+ .hvr-glow:focus,
+ .hvr-glow:hover {
+  text-shadow: 0px 0px 16px rgb(255, 188, 199, .5);
+  -webkit-transition-duration:.5s;
+  transition-duration:.5s;
+ }
+
+.floating:hover {
+  -webkit-transform: rotateY(15deg); /* Safari prior 9.0 */
+  transform: rotateY(15deg) skewY(2deg); /* Standard syntax */
+  transition-duration: 2s;
+}
+
+.floating {
+  -webkit-transform: rotateY(0deg); /* Safari prior 9.0 */
+  transform: rotateY(0deg) skewY(0deg); /* Standard syntax */
+  transition-duration: 2s;
+}
+
