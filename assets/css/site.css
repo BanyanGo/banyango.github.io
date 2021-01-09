@@ -91,12 +91,6 @@
        animation: fadein 2s;
 }
 
-.game-icon.left:hover {
-  -webkit-transform: rotateY(15deg); /* Safari prior 9.0 */
-  transform: rotateY(15deg) skewY(-2deg); /* Standard syntax */
-  transition-duration: 2s;
-}
-
 .game-icon.right {
   margin-top:3em;
   padding-right: 2%;
@@ -110,12 +104,6 @@
    -ms-animation: fadein 2s; /* Internet Explorer */
     -o-animation: fadein 2s; /* Opera < 12.1 */
        animation: fadein 2s;
-}
-
-.game-icon.right:hover {
-  -webkit-transform: rotateY(15deg); /* Safari prior 9.0 */
-  transform: rotateY(15deg) skewY(2deg); /* Standard syntax */
-  transition-duration: 2s;
 }
 
 .links {
